@@ -1,0 +1,3 @@
+
+"embedding_models:transformers#1792035789734": {"provider_key":"transformers","model_key":"TaylorAI/bge-micro-v2","dims":384,"max_tokens":512,"class_name":"EmbeddingModel","created_at":1792035789734,"key":"transformers#1792035789734"},
+"embedding_models:transformers#1792035789734": {"provider_key":"transformers","model_key":"TaylorAI/bge-micro-v2","dims":384,"max_tokens":512,"class_name":"EmbeddingModel","created_at":1792035789734,"key":"transformers#1792035789734","batch_size":1,"test_passed":true},
