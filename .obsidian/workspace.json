@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mobile Development/Mobile Development 1.md",
+                "file": "Artificial Intelligence/Portfolio & Research/Research & Documentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mobile Development 1"
+              "title": "Research & Documentation"
             }
           }
         ]
@@ -181,19 +181,9 @@
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
-          },
-          {
-            "id": "219c60ed54d607fb",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-agent-chat-view",
-              "state": {},
-              "icon": "copilot-agent",
-              "title": "Copilot Agent"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -214,43 +204,43 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "a854d7fd32eee4cf",
+  "active": "3bcf02739bc1c005",
   "lastOpenFiles": [
-    "Mobile Development/Activity 2/node_modules/mime-types/HISTORY.md",
-    "Mobile Development/Activity 2/node_modules/mime-db/README.md",
-    "Mobile Development/Activity 2/node_modules/mime-db/package.json",
-    "Mobile Development/Activity 2/node_modules/mime-db/LICENSE",
-    "Mobile Development/Activity 2/node_modules/mime-db/HISTORY.md",
-    "Mobile Development/Activity 2/node_modules/mime-db/index.js",
-    "Mobile Development/Activity 2/node_modules/mime-db/db.json",
-    "Mobile Development/Activity 2/node_modules/mime-db",
-    "Mobile Development/Activity 2/node_modules/fresh/index.js",
-    "Mobile Development/Activity 2/node_modules/express/lib/view.js",
-    "Mobile Development/Activity 2/node_modules/express/lib/utils.js",
-    "Mobile Development/Activity 2/node_modules/express/lib/response.js",
-    "Mobile Development/Activity 2/node_modules/express/lib/express.js",
-    "Mobile Development/Activity 2/node_modules/express/Readme.md",
-    "Mobile Development/Activity 2/node_modules/es-object-atoms/README.md",
-    "Mobile Development/Activity 2/node_modules/es-object-atoms/CHANGELOG.md",
-    "Mobile Development/Activity 2/node_modules/hasown/README.md",
-    "Mobile Development/Activity 2/node_modules/hasown/CHANGELOG.md",
-    "Mobile Development/Activity 2/node_modules/has-symbols/README.md",
-    "Mobile Development/Activity 2/node_modules/has-symbols/CHANGELOG.md",
-    "Mobile Development/Activity 2/node_modules/bytes/Readme.md",
-    "Mobile Development/Activity 2/node_modules/bytes/History.md",
-    "Mobile Development/Activity 2/node_modules/raw-body/README.md",
-    "Mobile Development/Activity 2/node_modules/safer-buffer/Readme.md",
-    "Mobile Development/Activity 2/node_modules/safer-buffer/Porting-Buffer.md",
-    "Mobile Development/Activity 2/node_modules/inherits/README.md",
-    "Mobile Development/Activity 2/node_modules/toidentifier/README.md",
-    "Mobile Development/Activity 2/node_modules/toidentifier/HISTORY.md",
-    "Mobile Development/Activity 2/node_modules/forwarded/README.md",
-    "Mobile Development/Activity 2/node_modules/forwarded/HISTORY.md",
-    "Mobile Development/Activity 2/node_modules/negotiator/README.md",
-    "Mobile Development/Activity 2/node_modules/dunder-proto/README.md",
-    "Mobile Development/Activity 2/node_modules/dunder-proto/CHANGELOG.md",
-    "Mobile Development/Activity 2/node_modules/side-channel-list/README.md",
-    "Mobile Development/Activity 2/node_modules/side-channel-list/CHANGELOG.md",
-    "Mobile Development/Activity 2/node_modules/es-define-property/README.md"
+    "Copilot/projects",
+    "Copilot/projects",
+    "Copilot/memory",
+    "Copilot/memory",
+    "Copilot/skills/openartifacts-publish/themes/research-memo.md",
+    "Copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "Copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "Copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "Copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "Copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "Copilot/skills/json-canvas/references/EXAMPLES.md",
+    "Copilot/skills/openartifacts-publish/themes",
+    "Copilot/skills/openartifacts-publish/SKILL.md",
+    "Copilot/skills/openartifacts-publish/openartifacts-publish.sh",
+    "Copilot/skills/openartifacts-publish/openartifacts-publish.ps1",
+    "Copilot/skills/openartifacts-publish/openartifacts-publish.cmd",
+    "Copilot/skills/obsidian-markdown/SKILL.md",
+    "Copilot/skills/obsidian-markdown/references",
+    "Copilot/skills/obsidian-markdown/LICENSE",
+    "Copilot/skills/obsidian-cli/SKILL.md",
+    "Copilot/skills/obsidian-cli/LICENSE",
+    "Copilot/skills/obsidian-bases/SKILL.md",
+    "Copilot/skills/json-canvas/SKILL.md",
+    "Copilot/skills/copilot-youtube-transcript/SKILL.md",
+    "Copilot/skills/copilot-fetch-x/SKILL.md",
+    "Artificial Intelligence/Portfolio & Research/Research & Documentation.md",
+    "Copilot/skills/obsidian-cli/SKILL.md",
+    "Copilot/skills/json-canvas/SKILL.md",
+    "Copilot/skills/json-canvas/references/EXAMPLES.md",
+    "Copilot/skills/obsidian-bases/SKILL.md",
+    "Copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "Copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "Copilot/skills/obsidian-markdown/SKILL.md",
+    "Copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "Copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "Copilot/skills/obsidian-markdown/references/CALLOUTS.md"
   ]
 }

@@ -90,7 +90,7 @@ grid when creating a new layout.
 - Sides, ends, and colors use allowed values.
 - Nodes do not unintentionally overlap and group children sit inside bounds.
 
-Read [Examples](references/EXAMPLES.md) for complete connected and grouped
+Read [Examples](Copilot/skills/json-canvas/references/EXAMPLES.md) for complete connected and grouped
 canvases.
 
 ## Attribution

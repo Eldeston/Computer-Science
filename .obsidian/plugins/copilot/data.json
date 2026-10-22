@@ -22,9 +22,10 @@
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
   "stream": true,
-  "copilotFolder": "copilot",
+  "copilotFolder": "Copilot",
   "copilotRootHistory": [
-    "copilot"
+    "copilot",
+    "Copilot"
   ],
   "upgradedToV8FromLegacy": false,
   "defaultSaveFolder": "copilot/copilot-conversations",
@@ -456,15 +457,6 @@
     {
       "providerId": "0dcca4b9-2a7f-49da-b3cb-49d4f49237a4",
       "info": {
-        "id": "opencode/longcat-2.5-preview-free",
-        "displayName": "opencode/LongCat 2.5 Preview Free"
-      },
-      "configuredModelId": "bee79885-e753-43f1-a851-3ba4ada658cb",
-      "configuredAt": 1792036197502
-    },
-    {
-      "providerId": "0dcca4b9-2a7f-49da-b3cb-49d4f49237a4",
-      "info": {
         "id": "opencode/mimo-v2.6-flash-free",
         "displayName": "opencode/MiMo-V2.6-Flash Free"
       },
@@ -533,6 +525,24 @@
       },
       "configuredModelId": "de54184e-00a9-4171-b30c-a07c54dbf178",
       "configuredAt": 1792573625388
+    },
+    {
+      "providerId": "0dcca4b9-2a7f-49da-b3cb-49d4f49237a4",
+      "info": {
+        "id": "opencode/flint-40b-free",
+        "displayName": "opencode/Flint 40B Free"
+      },
+      "configuredModelId": "26f1b30a-32a5-4349-a2bb-1885a77b7afe",
+      "configuredAt": 1792605767415
+    },
+    {
+      "providerId": "0dcca4b9-2a7f-49da-b3cb-49d4f49237a4",
+      "info": {
+        "id": "ollama/qwen3:8b",
+        "displayName": "ollama/qwen3:8b"
+      },
+      "configuredModelId": "578f2950-903d-44b4-90e0-8c0d9a25d278",
+      "configuredAt": 1792647093603
     }
   ],
   "backends": {

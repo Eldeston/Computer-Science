@@ -89,8 +89,8 @@ embedding note, or the active file depending on where the Base is rendered.
 - Quote YAML strings containing special characters, especially colons and
   leading punctuation.
 
-Read [Functions reference](references/FUNCTIONS_REFERENCE.md) for function and
-type-specific operations, and [Examples](references/EXAMPLES.md) for complete
+Read [Functions reference](FUNCTIONS_REFERENCE.md) for function and
+type-specific operations, and [Examples](Copilot/skills/obsidian-bases/references/EXAMPLES.md) for complete
 task-tracker and daily-notes Bases.
 
 ## Validation checklist
