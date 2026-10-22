@@ -1,0 +1,4 @@
+- [ ] Complete research document base template in AI for Creativity
+- [ ] Complete activities for week 1-2 in AI for Creativity
+- [ ] Complete activities for task manager in Mobile Application Development
+- [ ] Complete activities for login page in Mobile Application Development
