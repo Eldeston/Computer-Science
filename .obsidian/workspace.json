@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Artificial Intelligence/Portfolio & Research/Research & Documentation.md",
+                "file": "Artificial Intelligence/Portfolio & Research/AI Research Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Research & Documentation"
+              "title": "AI Research Document"
             }
           }
         ]
@@ -204,8 +204,12 @@
       "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "3bcf02739bc1c005",
+  "active": "a854d7fd32eee4cf",
   "lastOpenFiles": [
+    "Artificial Intelligence/Week 2/Python Basics for AI Pair Tutorial-Practice-Week 2.ipynb",
+    "Artificial Intelligence/Week 2/W02_B_Lab_Notebook_Filter_and_Glitch.ipynb",
+    "Artificial Intelligence/Portfolio & Research/Research & Documentation.md",
+    "Artificial Intelligence/Portfolio & Research/AI Research Document.md",
     "Copilot/projects",
     "Copilot/projects",
     "Copilot/memory",
@@ -224,14 +228,11 @@
     "Copilot/skills/openartifacts-publish/openartifacts-publish.cmd",
     "Copilot/skills/obsidian-markdown/SKILL.md",
     "Copilot/skills/obsidian-markdown/references",
-    "Copilot/skills/obsidian-markdown/LICENSE",
     "Copilot/skills/obsidian-cli/SKILL.md",
-    "Copilot/skills/obsidian-cli/LICENSE",
     "Copilot/skills/obsidian-bases/SKILL.md",
     "Copilot/skills/json-canvas/SKILL.md",
     "Copilot/skills/copilot-youtube-transcript/SKILL.md",
     "Copilot/skills/copilot-fetch-x/SKILL.md",
-    "Artificial Intelligence/Portfolio & Research/Research & Documentation.md",
     "Copilot/skills/obsidian-cli/SKILL.md",
     "Copilot/skills/json-canvas/SKILL.md",
     "Copilot/skills/json-canvas/references/EXAMPLES.md",
@@ -240,7 +241,6 @@
     "Copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
     "Copilot/skills/obsidian-markdown/SKILL.md",
     "Copilot/skills/obsidian-markdown/references/PROPERTIES.md",
-    "Copilot/skills/obsidian-markdown/references/EMBEDS.md",
-    "Copilot/skills/obsidian-markdown/references/CALLOUTS.md"
+    "Copilot/skills/obsidian-markdown/references/EMBEDS.md"
   ]
 }
