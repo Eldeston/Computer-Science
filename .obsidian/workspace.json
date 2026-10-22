@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Artificial Intelligence/Portfolio & Research/AI Research Document.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Research Document"
+              "title": "README"
             }
           }
         ]
@@ -206,6 +206,9 @@
   },
   "active": "a854d7fd32eee4cf",
   "lastOpenFiles": [
+    "TODO.md",
+    "README.md",
+    "Artificial Intelligence/Portfolio & Research/AI Research Document.md",
     "Mobile Development/Activity 3/node_modules/vary/README.md",
     "Mobile Development/Activity 3/node_modules/vary/package.json",
     "Mobile Development/Activity 3/node_modules/vary/index.js",
@@ -239,9 +242,6 @@
     "Mobile Development/Activity 3/node_modules/unpipe/README.md",
     "Mobile Development/Activity 3/node_modules/unpipe/HISTORY.md",
     "Mobile Development/Activity 3/node_modules/type-is/README.md",
-    "Mobile Development/Activity 3/node_modules/type-is/HISTORY.md",
-    "Mobile Development/Activity 3/node_modules/toidentifier/README.md",
-    "Mobile Development/Activity 3/node_modules/toidentifier/HISTORY.md",
     "Artificial Intelligence/Week 2/Filter & Glitch/glitch_series_5.png",
     "Artificial Intelligence/Week 2/Filter & Glitch/glitch_series_4.png",
     "Artificial Intelligence/Week 2/Filter & Glitch/glitch_series_3.png",
