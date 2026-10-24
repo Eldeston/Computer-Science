@@ -16,10 +16,14 @@
 - https://arxiv.org/abs/2202.01142  "Learning Language Models and reverse engineering"
 - https://aclanthology.org/2024.emnlp-main.203/  "LLM Decompilation" 
 - https://aclanthology.org/2025.findings-acl.1194/  "LLM Decompilation"
+- https://link.springer.com/article/10.1007/s11704-026-60308-3 "Learning Language Models" Note: Leans more on the History of LLM.
+- https://www.mdpi.com/2076-3417/14/5/2074  "Learning Language Models" Note: Focuses in the Meaning of LLM. 
+- https://arxiv.org/abs/2406.06391  "Learning Language Models" Note: Explains more on how LLM learns and it's cycle on gathering data.
 # Projected Outline
 **I. Introduction**
 	**A. Learning Language Models**
 	**B. Software Decompilation**
+	**C. How are they both Use?** 
 **II. Applications**
 	**A. Accelerated Reverse Engineering**
 	**B. Accelerated Vulnerability Discovery**
