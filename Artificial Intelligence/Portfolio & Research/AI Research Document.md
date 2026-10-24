@@ -3,8 +3,10 @@
 **Gap:** "AI is not fully capable but it's progress in reverse engineering is accelerating with the use of modern hardware."
 **Question:** "Have we opened Pandora's box in AI applications in reverse engineering?"
 ## Checklist
-- [ ] Learning Language Models
+- [x] Learning Language Models
 - [ ] Decompilation
+- [x] LLM Decompilation
+- [x] Learning Language Models and reverse engineering
 - [ ] Applications
 	- [ ] Hacking
 	- [ ] Piracy
