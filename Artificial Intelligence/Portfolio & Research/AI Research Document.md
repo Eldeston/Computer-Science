@@ -21,6 +21,7 @@
 - https://www.mdpi.com/2076-3417/14/5/2074  **"Learning Language Models"** Note: Focuses in the Meaning of LLM. 
 - https://arxiv.org/abs/2406.06391  **"Learning Language Models"** Note: Explains more on how LLM learns and it's cycle on gathering data.
 - https://www.bbc.com/news/articles/cmly0lg3w5x2o  "**Hacking**" Note: News about the current worldwide cyber-security attack where most of it are happening to websites that are using PHP which most website in the internet are made of, It is also said that A.I was the one who found this problem. 
+- http://profs.scienze.univr.it/~giaco/download/Watermarking-Obfuscation/cifuentes95decompilation.pdf  **"Decompilation"** Note: Explains what a Decompiler is and it's different structure, it also shows the practical problems with Decompilation. Goes in-depth on Decompilation on Binary Programs. 
 # Projected Outline
 **I. Introduction**
 	**A. Learning Language Models**
