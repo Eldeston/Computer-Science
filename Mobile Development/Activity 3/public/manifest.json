@@ -1,5 +1,5 @@
 {
-    "name": "Student Task Planner",
+    "name": "Student Login Page",
     "short_name": "Task Planner",
     "start_url": "./index.html",
     "display": "standalone",
