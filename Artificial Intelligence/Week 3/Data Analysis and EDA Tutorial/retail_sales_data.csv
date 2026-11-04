@@ -1,0 +1,101 @@
+order_id,customer_age,annual_income,purchase_amount,quantity,shipping_cost,days_to_deliver,customer_satisfaction,product_category,payment_method
+1001,34,55000,127.50,2,8.99,3,4.5,Electronics,Credit Card
+1002,28,48000,89.99,1,5.50,2,4.8,Clothing,Debit Card
+1003,45,72000,234.00,3,12.00,4,4.2,Home & Garden,Credit Card
+1004,52,,,4,15.00,5,3.9,Electronics,PayPal
+1005,19,25000,45.00,1,4.50,7,4.6,Clothing,Debit Card
+1006,67,95000,450.00,5,25.00,3,4.9,Furniture,Credit Card
+1007,31,62000,156.75,2,9.50,4,4.4,Electronics,Credit Card
+1008,,,178.50,3,10.00,6,4.1,Books,PayPal
+1009,41,58000,92.00,1,6.00,2,4.7,Clothing,Debit Card
+1010,29,51000,310.00,4,18.00,5,4.3,Electronics,Credit Card
+1011,38,68000,199.99,2,11.00,3,4.6,Home & Garden,Credit Card
+1012,55,125000,875.00,8,45.00,4,3.2,Furniture,Credit Card
+1013,23,32000,67.50,1,5.00,8,4.5,Clothing,Debit Card
+1014,47,79000,245.00,3,14.00,,4.0,Electronics,PayPal
+1015,36,64000,134.99,2,8.50,3,4.8,Books,Credit Card
+1016,61,88000,520.00,6,28.00,5,4.4,Furniture,Credit Card
+1017,25,41000,78.00,1,5.50,2,4.9,Clothing,Debit Card
+1018,44,71000,189.50,2,10.50,4,4.2,Home & Garden,Credit Card
+1019,33,57000,425.00,5,22.00,6,3.8,Electronics,PayPal
+1020,50,82000,298.75,3,16.00,3,4.7,Furniture,Credit Card
+1021,27,46000,95.00,1,6.50,2,4.6,Clothing,Debit Card
+1022,39,69000,167.50,2,9.00,5,4.3,Books,Credit Card
+1023,58,,,7,35.00,4,3.5,Furniture,Credit Card
+1024,22,29000,54.99,1,4.50,7,4.8,Clothing,Debit Card
+1025,46,75000,278.00,3,15.00,3,4.1,Electronics,PayPal
+1026,35,61000,145.50,2,8.00,4,4.5,Home & Garden,Credit Card
+1027,53,84000,399.99,4,21.00,,4.4,Electronics,Credit Card
+1028,30,54000,112.00,2,7.00,2,4.7,Clothing,Debit Card
+1029,42,70000,234.50,3,13.00,5,4.2,Books,Credit Card
+1030,26,44000,88.75,1,6.00,3,4.9,Clothing,Debit Card
+1031,59,91000,567.00,6,30.00,4,4.0,Furniture,Credit Card
+1032,37,66000,198.00,2,10.00,6,4.6,Electronics,PayPal
+1033,48,77000,289.99,3,16.50,3,4.3,Home & Garden,Credit Card
+1034,24,38000,71.50,1,5.00,8,,Clothing,Debit Card
+1035,51,81000,345.00,4,19.00,5,4.1,Electronics,Credit Card
+1036,32,56000,129.99,2,7.50,2,4.8,Books,Credit Card
+1037,60,93000,478.50,5,26.00,4,4.4,Furniture,Credit Card
+1038,28,49000,96.00,1,6.50,3,4.7,Clothing,Debit Card
+1039,43,72000,223.75,3,12.50,5,4.2,Home & Garden,PayPal
+1040,21,27000,3500.00,1,250.00,2,2.1,Electronics,Credit Card
+1041,56,87000,412.00,4,23.00,4,4.5,Furniture,Credit Card
+1042,34,59000,157.50,2,8.50,3,4.6,Electronics,Credit Card
+1043,45,74000,198.99,2,11.00,6,4.1,Books,PayPal
+1044,29,52000,89.00,1,6.00,2,4.9,Clothing,Debit Card
+1045,54,85000,367.50,4,20.00,5,4.3,Home & Garden,Credit Card
+1046,31,55000,134.75,2,7.50,,4.7,Electronics,Credit Card
+1047,47,76000,289.00,3,15.50,4,4.2,Furniture,PayPal
+1048,26,45000,78.50,1,5.50,2,4.8,Clothing,Debit Card
+1049,57,89000,456.75,5,25.00,3,4.4,Electronics,Credit Card
+1050,36,63000,176.00,2,9.50,5,4.5,Books,Credit Card
+1051,49,78000,312.50,3,17.00,4,4.1,Home & Garden,PayPal
+1052,23,35000,67.00,1,5.00,7,4.6,Clothing,Debit Card
+1053,52,83000,398.99,4,21.50,3,4.3,Furniture,Credit Card
+1054,33,58000,145.00,2,8.00,6,4.7,Electronics,Credit Card
+1055,,,267.50,3,14.50,5,4.0,Books,PayPal
+1056,27,47000,92.75,1,6.50,2,4.9,Clothing,Debit Card
+1057,55,86000,445.00,5,24.00,4,4.4,Furniture,Credit Card
+1058,38,67000,189.50,2,10.00,3,4.6,Home & Garden,Credit Card
+1059,46,75000,256.00,3,14.00,5,4.2,Electronics,PayPal
+1060,25,42000,81.50,1,5.50,2,4.8,Clothing,Debit Card
+1061,51,80000,334.75,4,18.50,4,4.1,Books,Credit Card
+1062,35,62000,167.00,2,9.00,6,4.5,Electronics,Credit Card
+1063,58,90000,489.99,5,27.00,3,4.3,Furniture,PayPal
+1064,22,31000,59.00,1,4.50,8,4.7,Clothing,Debit Card
+1065,48,77000,278.50,3,15.00,,4.2,Home & Garden,Credit Card
+1066,32,57000,138.75,2,7.50,2,4.6,Electronics,Credit Card
+1067,59,92000,512.00,6,28.50,4,4.4,Furniture,Credit Card
+1068,28,50000,95.50,1,6.50,3,4.8,Clothing,Debit Card
+1069,44,73000,234.00,3,13.00,5,4.1,Books,PayPal
+1070,150,105000,678.00,7,38.00,4,1.5,Electronics,Credit Card
+1071,37,65000,187.50,2,10.00,3,4.7,Home & Garden,Credit Card
+1072,53,84000,356.75,4,19.50,6,4.3,Furniture,PayPal
+1073,24,39000,73.00,1,5.00,2,4.9,Clothing,Debit Card
+1074,50,79000,298.00,3,16.00,5,4.2,Electronics,Credit Card
+1075,31,56000,145.50,2,8.00,3,4.6,Books,Credit Card
+1076,56,88000,445.99,5,24.50,4,4.4,Furniture,Credit Card
+1077,29,51000,89.75,1,6.00,2,,Clothing,Debit Card
+1078,45,74000,267.00,3,14.50,6,4.1,Home & Garden,PayPal
+1079,26,44000,78.50,1,5.50,3,4.8,Clothing,Debit Card
+1080,54,85000,389.50,4,21.00,5,4.3,Electronics,Credit Card
+1081,34,60000,156.00,2,8.50,2,4.7,Books,Credit Card
+1082,49,78000,323.75,3,17.50,4,4.2,Furniture,PayPal
+1083,23,36000,65.00,1,5.00,7,4.6,Clothing,Debit Card
+1084,52,82000,378.50,4,20.50,3,4.4,Home & Garden,Credit Card
+1085,36,64000,178.00,2,9.50,6,4.5,Electronics,Credit Card
+1086,57,89000,467.99,5,26.00,4,4.1,Furniture,PayPal
+1087,28,49000,94.50,1,6.50,2,4.9,Clothing,Debit Card
+1088,46,76000,12500.00,3,850.00,25,1.8,Electronics,Credit Card
+1089,33,59000,147.75,2,8.00,3,4.6,Books,Credit Card
+1090,55,87000,434.00,5,23.50,5,4.3,Furniture,Credit Card
+1091,25,43000,84.50,1,5.50,2,4.8,Clothing,Debit Card
+1092,51,81000,345.75,4,19.00,4,4.2,Home & Garden,PayPal
+1093,38,68000,189.00,2,10.00,6,4.7,Electronics,Credit Card
+1094,59,91000,498.50,6,27.50,3,4.4,Furniture,Credit Card
+1095,21,28000,56.00,1,4.50,8,4.5,Clothing,Debit Card
+1096,47,77000,289.75,3,15.50,,4.1,Books,Credit Card
+1097,32,58000,145.00,2,8.00,2,4.6,Electronics,PayPal
+1098,58,90000,523.00,6,29.00,5,4.3,Furniture,Credit Card
+1099,27,48000,91.50,1,6.00,3,4.9,Clothing,Debit Card
+1100,44,73000,245.75,3,13.50,4,4.2,Home & Garden,Credit Card

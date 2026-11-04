@@ -11,20 +11,30 @@ body {
     padding: 40px;
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-}
-
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
+hr {
+    width: 33%;
+    margin: 12px auto;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+
 form {
-    display: flex;
     gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: calc(100% - 24px);
+    border: 2px solid #ddd;
+    padding: 12px;
+    border-radius: 8px;
 }
 
 button {
@@ -34,11 +44,16 @@ button {
     cursor: pointer;
 }
 
-input {
-    width: 75%;
-    padding: 12px;
+#gender {
+    width: 100%;
     border: 2px solid #ddd;
+    padding: 12px;
     border-radius: 8px;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 #taskList {
@@ -49,6 +64,41 @@ input {
 
 #taskInput {
     flex: 1;
+}
+
+#showPassword {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+#showPasswordLabel {
+    width: fit-content;
+    font-size: smaller;
+    place-items: center;
+}
+
+.rowContainer {
+    gap: 8px;
+    display: flex;
+}
+
+.columnContainer {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9fafb;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    border-left: 4px solid #2563eb;
 }
 
 .container {
@@ -67,17 +117,6 @@ input {
 
 .add-btn:hover {
     background: #1d4ed8;
-}
-
-.task-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #f9fafb;
-    margin-top: 10px;
-    padding: 12px;
-    border-radius: 8px;
-    border-left: 4px solid #2563eb;
 }
 
 .delete-btn {

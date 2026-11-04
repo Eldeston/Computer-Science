@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="manifest" href="manifest.json">
+
+        <title>Student Portal Login</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>Student Portal</h1>
+            <p>Please sign in to continue.</p>
+
+            <form id="signupForm">
+                <input type="text" id="firstName" name="firstName" autocomplete="given-name" placeholder="First Name" required>
+                <input type="text" id="lastName" name="lastName" autocomplete="family-name" placeholder="Last Name" required>
+
+                <div class="rowContainer">
+                    <input type="email" id="email" placeholder="Email" name="email" autocomplete="email" required>
+    
+                    <select id="gender" name="gender" required>
+                        <option value="" selected disabled>Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Prefer not to say">
+                            Prefer not to say
+                        </option>
+                    </select>
+                </div>
+
+                <hr>
+
+                <input type="password" id="password" placeholder="Password" name="password" autocomplete="new-password" required>
+
+                <div class="rowContainer">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" name="confirmPassword" autocomplete="new-password" required>
+
+                    <label id="showPasswordLabel" class="rowContainer">
+                        Show Password
+                        <input type="checkbox" id="showPassword">
+                    </label>
+                </div>
+
+                <hr>
+
+                <p>Already have an account? <a href="index.html">Sign In.</a></p>
+
+                <button type="submit">
+                    Create Account
+                </button>
+            </form>
+
+            <p id="message"></p>
+        </div>
+
+        <script src="sign-up.js"></script>
+        <script src="register-sw.js"></script>
+    </body>
+</html>
