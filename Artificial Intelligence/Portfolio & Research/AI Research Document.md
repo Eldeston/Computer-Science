@@ -1,17 +1,9 @@
 # Research Document
 **Topic:** AI in Reverse Engineering
-**Gap:** "AI is not fully capable but it's progress in reverse engineering is accelerating with the use of modern hardware."
-**Question:** "Have we opened Pandora's box in AI applications in reverse engineering?"
-## Checklist
-- [x] Learning Language Models
-- [x]  Software Decompilation
-- [x] LLM Decompilation
-- [x] Learning Language Models and reverse engineering
-- [x] LLM Vulnerability Discovery 
-- [ ] Applications
-	- [x] Hacking
-	- [ ] Piracy
-	- [ ] 
+
+**Gap:** "Although current AI systems cannot fully replace human reverse engineers, recent advances in large language models (LLMs) and computing hardware have significantly improved AI-assisted reverse engineering capabilities. The long-term implications of these developments for cybersecurity, software protection, and vulnerability discovery remain insufficiently understood."
+
+**Question:** "To what extent do AI-assisted reverse engineering technologies present opportunities and risks for cybersecurity and software development?"
 ## Sources
 - Decompiling Closed Sourced Software
 - https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.395.pdf **"Learning Language Models and reverse engineering"** Note: Explains and dives deep on what reverse engineering does in LLM's and different elements about it. 
@@ -36,9 +28,11 @@
 	**C. Software Preservation**
 **III. Risks**
 	**A. Attacker Accessibility**
-	**C. Automated Attacks**
 	**B. Software Cracking**
+	**C. Automated Attacks**
 **IV. Conclusion**
 **V. Reflection**
-
 ## Rough Draft
+Decompilation is a complex reverse engineering technique widely used in cybersecurity, software maintenance, and digital preservation. By translating executable programs back into a human-readable form, analysts can study closed-source software, identify vulnerabilities, recover lost functionality, and maintain legacy systems. Traditionally, effective decompilation required significant technical expertise. However, the emergence of large language models (LLMs) has begun to lower the barrier to entry by assisting users with code analysis, binary interpretation, and vulnerability discovery. While these developments offer substantial benefits to defenders and researchers, they also raise concerns regarding software cracking, automated attacks, and the broader accessibility of offensive reverse engineering capabilities.
+
+This paper argues that while AI has not yet achieved fully autonomous reverse engineering, its rapidly improving capabilities are transforming the field by accelerating decompilation and vulnerability discovery, creating both significant benefits and unprecedented cybersecurity risks.
