@@ -5,7 +5,6 @@
 
 **Question:** "To what extent do AI-assisted reverse engineering technologies present opportunities and risks for cybersecurity and software development?"
 ## Sources
-- Decompiling Closed Sourced Software
 - https://aclanthology.org/anthology-files/anthology-files/pdf/findings/2025.findings-emnlp.395.pdf **"Learning Language Models and reverse engineering"** Note: Explains and dives deep on what reverse engineering does in LLM's and different elements about it. 
 - https://arxiv.org/abs/2202.01142  **"Learning Language Models and reverse engineering"** Note: Investigates an LLM for reverse engineering tasks which focus on program purpose identification and information extraction from C code, which also includes stripped and decompiled versions. 
 - https://aclanthology.org/2024.emnlp-main.203/  **"LLM Decompilation"** Note: Using LLM's to decompile binary code. 
