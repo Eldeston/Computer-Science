@@ -21,11 +21,8 @@ form.addEventListener("submit", async (event) => {
     const password = passwordInput.value.trim();
 
     if (!email || !password) {
-        message.textContent =
-            "Enter an email and password.";
-
+        message.textContent = "Enter an email and password.";
         message.style.color = "red";
-
         return;
     }
 

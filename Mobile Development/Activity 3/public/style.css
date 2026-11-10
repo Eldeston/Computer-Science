@@ -5,16 +5,16 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f9;
     margin: 0;
     padding: 40px;
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 hr {
@@ -38,10 +38,10 @@ input {
 }
 
 button {
-    padding: 12px 16px;
     border: none;
-    border-radius: 8px;
     cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 8px;
 }
 
 #gender {
@@ -57,9 +57,9 @@ button {
 }
 
 #taskList {
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 #taskInput {
@@ -92,27 +92,27 @@ button {
 
 .task-item {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 12px;
     background: #f9fafb;
     margin-top: 10px;
-    padding: 12px;
-    border-radius: 8px;
+    align-items: center;
     border-left: 4px solid #2563eb;
+    border-radius: 8px;
+    justify-content: space-between;
 }
 
 .container {
-    max-width: 600px;
     margin: auto;
-    background: white;
     padding: 24px;
+    max-width: 600px;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 .add-btn {
-    background: #2563eb;
     color: white;
+    background: #2563eb;
 }
 
 .add-btn:hover {
@@ -120,8 +120,8 @@ button {
 }
 
 .delete-btn {
-    background: #dc2626;
     color: white;
+    background: #dc2626;
 }
 
 .delete-btn:hover {

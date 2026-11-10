@@ -37,17 +37,13 @@ form.addEventListener("submit", async (event) => {
         !password ||
         !confirmPassword
     ) {
-        message.textContent =
-            "Please fill in all fields.";
-
+        message.textContent = "Please fill in all fields.";
         message.style.color = "red";
         return;
     }
 
     if (password.length < 8) {
-        message.textContent =
-            "Password must be at least 8 characters.";
-
+        message.textContent = "Password must be at least 8 characters.";
         message.style.color = "red";
 
         passwordInput.value = "";
@@ -58,9 +54,7 @@ form.addEventListener("submit", async (event) => {
     }
 
     if (password !== confirmPassword) {
-        message.textContent =
-            "Passwords do not match.";
-
+        message.textContent = "Passwords do not match.";
         message.style.color = "red";
 
         passwordInput.value = "";
@@ -76,8 +70,7 @@ form.addEventListener("submit", async (event) => {
             {
                 method: "POST",
                 headers: {
-                    "Content-Type":
-                        "application/json"
+                    "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
                     firstName,
