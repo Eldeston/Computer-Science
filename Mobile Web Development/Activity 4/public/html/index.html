@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="manifest" href="../manifest.json">
+
+        <title>Student Portal Login</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>Student Portal</h1>
+            <p>Please sign in to continue.</p>
+
+            <form id="loginForm">
+                <input type="email" id="email" placeholder="School Email" autocomplete="email" required>
+                
+                <div class="rowContainer">
+                    <input type="password" id="password" placeholder="Password" autocomplete="current-password" required>
+
+                    <label id="showPasswordLabel" class="rowContainer">
+                        Show Password
+                        <input type="checkbox" id="showPassword">
+                    </label>
+                </div>
+
+                <br>
+
+                <div class="rowContainer">
+                    <button class="login-btn" type="submit">
+                        Login
+                    </button>
+
+                    <button class="signup-btn" type="button" id="signupBtn">
+                        Create Account
+                    </button>
+                </div>
+            </form>
+
+            <p id="message"></p>
+        </div>
+
+        <script type="module" src="../js/index.js"></script>
+        <script type="module" src="../js/register-sw.js"></script>
+    </body>
+</html>
