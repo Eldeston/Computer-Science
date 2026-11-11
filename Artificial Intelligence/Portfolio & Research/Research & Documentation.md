@@ -22,7 +22,6 @@ This is a research log and documentation of the resources I've accumulated in th
 | 2    | Python pair workshop through Google Colab/Jupyter Notebook.          | Working in pairs & Learning Panda, Numpy, MatPlotLib, Pillow. |
 | 3    | Analyzing sample csv data with Panda and displaying them in Seaborn. | Working with Seaborn, Panda to display and analyze data.      |
 | 4    |                                                                      |                                                               |
-
 ## Log Summary
 - Refreshing knowledge in the Python language.
 - Working with Prim Cabbab in learning the 5 Python modules for data visualization and analytics
