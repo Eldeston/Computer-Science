@@ -1,24 +1,3 @@
-/* Database Functions */
-
-import {
-    openDatabase,
-    addTask,
-    getAllTasks,
-    updateTask,
-    deleteTask
-} from "../indexedDB.js";
-
-async function startApp() {
-    try {
-        await openDatabase();
-    } catch (error) {
-        console.error(error);
-        alert("Unable to start the application.");
-    }
-}
-
-startApp();
-
 /* Core App Functions */
 
 const form = document.getElementById("loginForm");

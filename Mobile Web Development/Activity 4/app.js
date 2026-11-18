@@ -128,11 +128,23 @@ async function startServer() {
         }
 
         const task = {
+            id: req.body.id,
             email: req.params.email,
             title: req.body.title.trim()
         };
 
-        await db.collection("Tasks").insertOne(task);
+        await db.collection("Tasks").updateOne(
+            {
+                email: task.email,
+                id: task.id
+            },
+            {
+                $set: task
+            },
+            {
+                upsert: true
+            }
+        );
 
         res.json({ success: true });
     });

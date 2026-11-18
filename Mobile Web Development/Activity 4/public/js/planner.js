@@ -1,5 +1,19 @@
+/* Database Functions */
+
+import {
+    openDatabase,
+    addTask,
+    getAllTasks,
+    updateTask,
+    deleteTask,
+    clearTasks
+} from "./indexed-db.js";
+
+/* Planner Core */
+
 const form = document.getElementById("taskForm");
 const input = document.getElementById("taskInput");
+const syncBtn = document.getElementById("syncBtn");
 const taskList = document.getElementById("taskList");
 const logoutBtn = document.getElementById("logoutBtn");
 
@@ -35,18 +49,23 @@ async function loadTasks() {
             deleteBtn.className = "delete-btn";
 
             deleteBtn.addEventListener("click", async () => {
-                const response = await fetch(
-                    `/api/tasks/${email}/${task._id}`,
-                    {
-                        method: "DELETE"
+                try {
+                    const response = await fetch(
+                        `/api/tasks/${email}/${task._id}`,
+                        {
+                            method: "DELETE"
+                        }
+                    );
+
+                    if (!response.ok) {
+                        throw new Error("Delete failed");
                     }
-                );
 
-                if (!response.ok) {
-                    throw new Error("Delete failed");
+                    await loadTasks();
+                } catch (err) {
+                    console.error(err);
+                    alert("Failed to delete task.");
                 }
-
-                await loadTasks();
             });
 
             li.appendChild(taskText);
@@ -82,6 +101,7 @@ form.addEventListener("submit", async event => {
                     "Content-Type": "application/json"
                 },
                 body: JSON.stringify({
+                    id: crypto.randomUUID(),
                     title: task
                 })
             }
@@ -95,5 +115,52 @@ form.addEventListener("submit", async event => {
         await loadTasks();
     } catch (error) {
         console.error("Add task failed:", error);
+    }
+});
+
+syncBtn.addEventListener("click", async () => {
+    try {
+        syncBtn.disabled = true;
+
+        const localTasks = await getAllTasks();
+
+        // Upload local tasks
+        for (const task of localTasks) {
+            await fetch(`/api/tasks/${email}`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    id: task.id,
+                    title: task.title
+                })
+            });
+        }
+
+        // Download MongoDB copy
+        const response = await fetch(
+            `/api/tasks/${email}`
+        );
+
+        const mongoTasks =
+            await response.json();
+
+        await clearTasks();
+
+        for (const task of mongoTasks) {
+            await addTask(task);
+        }
+
+        await loadTasks();
+
+        alert("Sync complete!");
+    }
+    catch (err) {
+        console.error(err);
+        alert("Sync failed.");
+    }
+    finally {
+        syncBtn.disabled = false;
     }
 });

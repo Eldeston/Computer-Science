@@ -11,7 +11,8 @@ function openDatabase() {
             db = event.target.result;
             if (!db.objectStoreNames.contains("tasks")) {
                 db.createObjectStore("tasks", {
-                    keyPath: "id", autoIncrement: true
+                    keyPath: "id",
+                    autoIncrement: true
                 });
             }
         };
@@ -69,10 +70,27 @@ function deleteTask(id) {
     });
 }
 
+function clearTasks() {
+    return new Promise((resolve, reject) => {
+        const tx = db.transaction(
+            ["tasks"],
+            "readwrite"
+        );
+
+        const store = tx.objectStore("tasks");
+
+        const request = store.clear();
+
+        request.onsuccess = () => resolve();
+        request.onerror = () => reject(request.error);
+    });
+}
+
 export {
     openDatabase,
     addTask,
     getAllTasks,
     updateTask,
-    deleteTask
+    deleteTask,
+    clearTasks
 };
